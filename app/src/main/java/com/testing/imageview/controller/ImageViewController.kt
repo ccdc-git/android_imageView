@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.graphics.drawable.BitmapDrawable
 import android.widget.ImageView
 
-abstract class ImageViewController(private val imageView : ImageView, open val bitmap: Bitmap) {
+abstract class ImageViewController(open val imageView : ImageView, open val bitmap: Bitmap) {
 
 
     protected abstract fun onDraw(canvas: Canvas)
